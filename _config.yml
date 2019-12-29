@@ -16,21 +16,21 @@ author: Dongwoo Ha
 baseurl: /
 title: Dongwoo Ha's Resume
 name: Dongwoo Ha
-email: christurner@me.com
-email_full: mailto:youremail@me.com
-website: github.io/sustain
-website_full: https://jekyller.github.io/sustain
+email: dongwoo.ha@gmail.com
+email_full: mailto:dongwoo.ha@gmail.com
+website: github.io/
+website_full: https://dongwooha.github.io
 github: trending
 twitter: twitter
-tel: +44 0000 000000
-tel_full: tel:+440000000000
-google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
-address:
-  street: 44 Perth Street
-  postcode: EH3 5BL
-  city: Edinburgh
-  country: United Kingdom
-google_analytics: UA-69300817-1
+#tel: +44 0000 000000
+#tel_full: tel:+440000000000
+#google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+#address:
+#  street: 44 Perth Street
+#  postcode: EH3 5BL
+#  city: Edinburgh
+#  country: United Kingdom
+#google_analytics: UA-69300817-1
 
 # needed for travis-ci build
 exclude: [vendor]
