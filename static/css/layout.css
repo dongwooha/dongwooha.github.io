@@ -45,6 +45,7 @@ header > h1, section > h1 {
 }
 
 header > h1 {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
     line-height: 100%;
     font-size: 180%;
     font-weight: blold;
