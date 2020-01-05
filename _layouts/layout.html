@@ -23,7 +23,7 @@
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
 </head>
 <body>
-    #fix!
+
 <div class="container">
     <header class="three columns">
         <img src="{{ site.baseurl }}static/img/profile.png" class="me">
@@ -31,6 +31,7 @@
         <p>
             <a href="{{ site.tel_full }}">{{ site.tel }}</a>
         </p>
+        <!--
         <address>
             <a href="{{ site.google_maps }}">
                 {{ site.address.street }}<br/>
@@ -39,13 +40,14 @@
                 {{ site.address.country }}
             </a>
         </address>
+        -->
         <p>
             <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
         </p>
         <p>
-            <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
+            <a href="{{ site.email_full }}"> <i class="fa fa-envelope"></i> {{ site.email }}</a><br/>
             <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+            <!-- <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a> -->
         </p>
     </header>
     <div class="thirteen columns clearfix">
@@ -53,7 +55,7 @@
         {{ content }}
 
     <footer class="thirteen columns">
-        <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
+        <p>© Dongwoo Ha All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
             <a href="https://www.github.com/jekyller/vitae">vitae</a> with ♥</p>
     </footer>
     </div>
