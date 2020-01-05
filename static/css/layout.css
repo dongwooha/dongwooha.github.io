@@ -45,10 +45,9 @@ header > h1, section > h1 {
 
 header > h1 {
     line-height: 100%;
-    font-size: 250%;
+    font-size: 200%;
     font-weight: blold;
     margin-bottom: 20px;
-    text-transform: uppercase;
 }
 
 .container > header p, .container > header address {
